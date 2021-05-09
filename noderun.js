@@ -15,11 +15,8 @@ var activeGuid = ""
 
 for (var i = 0; i < 100000; i++){
     var a = uuidv4();
-    inventoryGuid(a);
-
-    
+    inventoryGuid(a); 
 }
-
 
 var a = duplicateGuid;
 
